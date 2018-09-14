@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: GDC Product Support
+Template Name: Product Support
 */
 
 get_header();
@@ -75,7 +75,7 @@ $is_page_builder_used = et_pb_is_pagebuilder_used( get_the_ID() );
 
 										<input type=hidden name="orgid" value="00Df20000017OJZ">
 										<input type=hidden name="retURL" value="https://support.momentumcam.com/product-support-thank-you/">
-										<input  id="subject" maxlength="80" name="subject" type="hidden" value="Garage Door Controller Product Support"/>
+										<input  id="subject" maxlength="80" name="subject" type="hidden" value="<?php echo get_the_title(); ?>"/>
 										<input  id="reason" name="reason" value="GEN05 - REQ PRODUCT INFO" type="hidden" /> 	
 										<!--  ----------------------------------------------------------------------  -->
 										<!--  NOTE: These fields are optional debugging elements. Please uncomment    -->
@@ -95,7 +95,7 @@ $is_page_builder_used = et_pb_is_pagebuilder_used( get_the_ID() );
 											</span>
 											</div>
 											</li>
-											<li id="field_5_2" class="gfield gfield_halfwidth field_sublabel_below field_description_below gfield_visibility_visible"><label class="gfield_label" for="input_5_2"></label><div class="ginput_container ginput_container_select"><select name="00Nf200000DIzPm" id="00Nf200000DIzPm" class="medium gfield_select" tabindex="6" aria-invalid="false"><option value="I need help with...">I need help with...</option><option value="Connecting My Camera">Connecting My Camera</option><option value="Something in the App">Something in the App</option><option value="Something else">Something else</option></select></div></li>
+											<li id="field_5_2" class="gfield gfield_halfwidth field_sublabel_below field_description_below gfield_visibility_visible"><label class="gfield_label" for="input_5_2"></label><div class="ginput_container ginput_container_select"><select name="00Nf200000DIzPm" id="00Nf200000DIzPm" class="medium gfield_select" tabindex="6" aria-invalid="false"><option value="I need help with..."><?php _e('I need help with...'); ?></option><option value="Connecting My Camera"><?php _e('Connecting My Camera'); ?></option><option value="Something in the App"><?php _e('Something in the App'); ?></option><option value="Something else"><?php _e('Something else'); ?></option></select></div></li>
 											<li id="field_5_3" class="gfield gfield_halfwidth gfield_contains_required field_sublabel_below field_description_below gfield_visibility_visible"><label class="gfield_label" for="input_5_3"><span class="gfield_required">*</span></label><div class="ginput_container ginput_container_email">
 												<input name="00Nf200000DIyoC" id="00Nf200000DIyoC" type="text" value="" class="medium" tabindex="7" placeholder="Email" aria-required="true" aria-invalid="false">
 											</div></li>
