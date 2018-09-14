@@ -1,0 +1,93 @@
+/**********************************
+** BEGIN common
+************************************************/
+    .shopify-section {
+        font-weight: 400;
+        font-size: 14px;
+    }
+    .shopify-section * {
+        font-family: Rajdhani;
+    }
+    input.form__input {
+        padding: 14px;
+    }
+    #page-container {
+        overflow-y: initial!important;
+    }
+/***********************************************
+** END  common
+***********************************/
+
+
+/**********************************
+** BEGIN header
+************************************************/
+    /* announcement-bar */
+        .announcement-bar {
+            color: #00b6f0;
+            background: #0c0c0d;
+        }
+        .announcement-bar .container {
+            text-align: center;
+        }
+
+    /* top menu */
+        header > .container {
+            position: static;
+        }
+        .header__logo {
+            padding-bottom: 0;
+        }
+        .mega-nav {
+            z-index: 999;
+        }
+        .header__logo-image {
+            max-width: 220px;
+        }
+        .mega-nav__title,
+        .header__link,
+        .header__link a {
+        	font-family: Roboto;
+        	text-transform: none;
+        	font-weight: 300;
+        	font-size: 17px;
+        }
+/***********************************************
+** END header
+***********************************/
+
+/**********************************
+** BEGIN main
+************************************************/
+    #et-main-area {
+        position: relative;
+        z-index: 1;
+    }
+/***********************************************
+** END main
+***********************************/
+
+/**********************************
+** BEGIN footer
+************************************************/
+    .footer__title {
+        font-size: 14px;
+        letter-spacing: 2.8px;
+    }
+/***********************************************
+** END footer
+***********************************/
+
+
+/**********************************
+** BEGIN accordion zone
+************************************************/
+    .accordions-zone a {
+        text-decoration: underline;
+    }
+    .accordions-zone a:hover {
+        color: #00b6f0;
+    }
+/***********************************************
+** END accordion zone
+***********************************/
